@@ -2,7 +2,7 @@
 
 DziriBERT is the first Transformer-based Language Model that has been pre-trained specifically for the Algerian Dialect. It handles Algerian text contents written using both Arabic and Latin characters. It sets new state of the art results on Algerian text classification datasets, even if it has been pre-trained on much less data (~1 million tweets).
 
-The model is publicly available at: https://huggingface.co/amine/dziribert.
+The model is publicly available at: https://huggingface.co/alger-ia/dziribert.
 
 ## Evaluation
 
@@ -37,7 +37,7 @@ These experiments have been conducted on a Tesla K80 GPU.
 
 ## Pretrained DziriBERT
 
-DziriBERT has been uploaded to the HuggingFace hub in order to facilitate its use: https://huggingface.co/amine/dziribert.
+DziriBERT has been uploaded to the HuggingFace hub in order to facilitate its use: https://huggingface.co/alger-ia/dziribert.
 
 It can be easily downloaded and loaded using the [transformers library](https://github.com/huggingface/transformers):
 
