@@ -44,8 +44,8 @@ It can be easily downloaded and loaded using the [transformers library](https://
 ```python
 from transformers import BertTokenizer, BertForMaskedLM
 
-tokenizer = BertTokenizer.from_pretrained("amine/dziribert")
-model = BertForMaskedLM.from_pretrained("amine/dziribert")
+tokenizer = BertTokenizer.from_pretrained("alger-ia/dziribert")
+model = BertForMaskedLM.from_pretrained("alger-ia/dziribert")
 
 ```
 
