@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 #model = 'UBC-NLP/MARBERT'
 #model = 'CAMeL-Lab/bert-base-arabic-camelbert-da'
 #model = 'CAMeL-Lab/bert-base-arabic-camelbert-mix'
-model = 'amine/dziribert'
+model = 'alger-ia/dziribert'
 
 tokenizer = BertTokenizer.from_pretrained(model)
 
