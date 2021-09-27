@@ -17,7 +17,7 @@ The [Twifil dataset](https://aclanthology.org/2020.lrec-1.151/) was used to comp
 | CAMeL-Lab/bert-base-arabic-camelbert-mix |      77.1 %    |    65.7 %    |
 | qarib/bert-base-qarib                    |      77.7 %    |    67.6 %    |
 | UBC-NLP/MARBERT                          |      80.1 %    |    68.4 %    |
-| amine/dziribert                          |      80.3 %    |    69.3 %    |
+| alger-ia/dziribert                       |      80.3 %    |    69.3 %    |
 
 </center>
 
@@ -33,7 +33,7 @@ Then, run the following evaluation script:
 python3 evaluate_model.py
 ```
 
-These experiments have been conducted on a Tesla K80 GPU.
+These results have been obtained on a Tesla K80 GPU.
 
 ## Pretrained DziriBERT
 
