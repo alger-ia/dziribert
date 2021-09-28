@@ -1,10 +1,12 @@
 # DziriBERT
 
-<img src="https://github.com/alger-ia/dziribert/blob/main/dziribert_drawing.png" alt="dziribert drawing" width="15%" height="15%" align="right"/>
+<img src="https://github.com/alger-ia/dziribert/blob/main/dziribert_drawing.png" alt="dziribert drawing" width="17%" height="17%" align="right"/>
 
 DziriBERT is the first Transformer-based Language Model that has been pre-trained specifically for the Algerian Dialect. It handles Algerian text contents written using both Arabic and Latin characters. It sets new state of the art results on Algerian text classification datasets, even if it has been pre-trained on much less data (~1 million tweets).
 
 The model is publicly available at: https://huggingface.co/alger-ia/dziribert.
+
+For more information, please visit our paper: https://arxiv.org/pdf/2109.12346.pdf
 
 ## Evaluation
 
@@ -57,7 +59,7 @@ model = BertForMaskedLM.from_pretrained("alger-ia/dziribert")
 @article{dziribert,
   title={DziriBERT: a Pre-trained Language Model for the Algerian Dialect},
   author={Abdaoui, Amine and Berrimi, Mohamed and Oussalah, Mourad and Moussaoui, Abdelouahab},
-  journal={arXiv preprint arXiv:XXX.XXXXX},
+  journal={arXiv preprint arXiv:2109.12346},
   year={2021}
 }
 ```
