@@ -7,8 +7,8 @@ examples = [" أنا من الجزائر من ولاية [MASK] ",
 
 fill_mask = pipeline(
     "fill-mask",
-    model="dziribert",
-    tokenizer="dziribert"
+    model="alger-ia/dziribert",
+    tokenizer="alger-ia/dziribert"
 )
 
 for example in examples:
