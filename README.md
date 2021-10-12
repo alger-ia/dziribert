@@ -4,7 +4,7 @@
 
 DziriBERT is the first Transformer-based Language Model that has been pre-trained specifically for the Algerian Dialect. It handles Algerian text contents written using both Arabic and Latin characters. It sets new state of the art results on Algerian text classification datasets, even if it has been pre-trained on much less data (~1 million tweets).
 
-* Dziri means: Algerian :D 
+<sub><sup> Dziri means: Algerian :D  </sup></sub>
 
 The model is publicly available at: https://huggingface.co/alger-ia/dziribert.
 
