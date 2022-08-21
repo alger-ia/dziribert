@@ -68,4 +68,4 @@ model = BertForMaskedLM.from_pretrained("alger-ia/dziribert")
 
 ## Contact 
 
-Please contact amine.abdaoui@huawei.com for any question, feedback or request.
+Please contact amine.abdaoui.nlp@gmail.com for any question, feedback or request.
