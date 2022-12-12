@@ -17,7 +17,7 @@ model = 'alger-ia/dziribert'
 tokenizer = BertTokenizer.from_pretrained(model)
 
 # seeds to reproduce the results of the paper
-seeds = [38, 66, 216, 128, 285, 0, 367, 14, 196, 42]
+seeds = [38, 66, 216, 128, 214, 412, 180, 14, 196, 42]
 
 # code to generate new seeds
 #seeds = []
@@ -63,7 +63,7 @@ args = TrainingArguments(
     learning_rate=2e-5,
     per_device_train_batch_size=8,
     per_device_eval_batch_size=4,
-    num_train_epochs=1,
+    num_train_epochs=3,
     load_best_model_at_end=True,
     metric_for_best_model="accuracy"
 )
