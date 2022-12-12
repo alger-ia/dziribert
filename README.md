@@ -2,28 +2,44 @@
 
 <img src="https://github.com/alger-ia/dziribert/blob/main/dziribert_drawing.png" alt="dziribert drawing" width="17%" height="17%" align="right"/>
 
-DziriBERT is the first Transformer-based Language Model that has been pre-trained specifically for the Algerian Dialect. It handles Algerian text contents written using both Arabic and Latin characters. It sets new state of the art results on Algerian text classification datasets, even if it has been pre-trained on much less data (~1 million tweets).
-
-<sub><sup> Dziri means: Algerian :D  </sup></sub>
+DziriBERT is the first Transformer-based Language Model that has been pre-trained specifically for the Algerian Dialect. It handles Algerian text contents written using both Arabic and Latin characters. It sets new state of the art results on Algerian text classification datasets (see below).
 
 The model is publicly available at: https://huggingface.co/alger-ia/dziribert.
 
 For more information, please visit our paper: https://arxiv.org/pdf/2109.12346.pdf
 
+**\* New: \*** A fine-tuned version for sentiment classification available [here](https://huggingface.co/alger-ia/dziribert_sentiment).
+
 ## Evaluation
 
-The [Twifil dataset](https://aclanthology.org/2020.lrec-1.151/) was used to compare DziriBERT with current multilingual, standard Arabic and dialectal Arabic models:
+Results on the [Twifil dataset](https://aclanthology.org/2020.lrec-1.151/):
 
 <center>
   
 |            Model                         | Sentiment acc. | Emotion acc. |
 | ---------------------------------------- |:--------------:|:------------:|
-| bert-base-multilingual-cased             |      73.6 %    |    59.4 %    |
-| aubmindlab/bert-base-arabert             |      72.1 %    |    61.2 %    |
-| CAMeL-Lab/bert-base-arabic-camelbert-mix |      77.1 %    |    65.7 %    |
-| qarib/bert-base-qarib                    |      77.7 %    |    67.6 %    |
-| UBC-NLP/MARBERT                          |      80.1 %    |    68.4 %    |
-| alger-ia/dziribert                       |      80.3 %    |    69.3 %    |
+| bert-base-multilingual-cased             |      74.2 %    |    62.0 %    |
+| aubmindlab/bert-base-arabert             |      73.9 %    |    64.6 %    |
+| CAMeL-Lab/bert-base-arabic-camelbert-mix |      77.7 %    |    69.1 %    |
+| qarib/bert-base-qarib                    |      78.8 %    |    68.9 %    |
+| UBC-NLP/MARBERT                          |      80.5 %    |    70.2 %    |
+| alger-ia/dziribert                       |      80.5 %    |    70.4 %    |
+
+</center>
+
+
+Results on the [Narabizi dataset](https://aclanthology.org/2021.findings-acl.324.pdf):
+
+<center>
+  
+|            Model                         | Sentiment acc. |  Topic acc.  |
+| ---------------------------------------- |:--------------:|:------------:|
+| bert-base-multilingual-cased             |      52.6 %    |    49.3 %    |
+| aubmindlab/bert-base-arabert             |      49.1 %    |    42.8 %    |
+| CAMeL-Lab/bert-base-arabic-camelbert-mix |      49.4 %    |    47.0 %    |
+| qarib/bert-base-qarib                    |      55.0 %    |    45.7 %    |
+| UBC-NLP/MARBERT                          |      58.0 %    |    49.0 %    |
+| alger-ia/dziribert                       |      63.5 %    |    62.8 %    |
 
 </center>
 
