@@ -71,6 +71,10 @@ model = BertForMaskedLM.from_pretrained("alger-ia/dziribert")
 
 ```
 
+## Limitations
+
+The pre-training data used in this project comes from social media (Twitter). Therefore, the Masked Language Modeling objective may predict offensive words in some situations. Modeling this kind of words may be either an advantage (e.g. when training a hate speech model) or a disadvantage (e.g. when generating answers that are directly sent to the end user). Depending on your downstream task, you may need to filter out such words especially when returning automatically generated text to the end user. 
+
 ## How to cite
 
 ```bibtex
